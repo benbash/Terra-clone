@@ -177,9 +177,10 @@ ul li::before {
   }
 
   .previous-section {
-    display: flex;
+    justify-content: end;
     align-items: center;
-    padding-left: 780px;
+    padding-right: 60px;
+    margin-top: 80px;
   }
 
   .previous section p span {
@@ -191,7 +192,7 @@ ul li::before {
   }
 
   .partners-section {
-    display: none;
+    /*display: none;*/
   }
 
   .topnav {
@@ -206,7 +207,7 @@ ul li::before {
  
     .container {
         width: 90%;
-        height: 150vh;
+        height: 100vh;
         margin: auto;
     }
     
@@ -278,7 +279,10 @@ ul li::before {
    }
    
    .previous-section {
-    padding-left: 80px;
+        margin-top: 5px;
+        padding-right: 0px;
+        justify-content: center;
+        margin-bottom: 15px;
    }
 
    .previous-section p {
@@ -307,9 +311,9 @@ ul li::before {
     color: green;
    }
 
-   i {
-    margin-left: 250px;
-    margin-top: 20pxg;
+  .icon i {
+    margin-left: 180px;
+    margin-top: 15px;
    }
     .topnav a {
     text-decoration: none;
