@@ -192,7 +192,7 @@ ul li::before {
   }
 
   .partners-section {
-    /*display: none;*/
+    display: none;
   }
 
   .topnav {
